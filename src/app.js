@@ -4,6 +4,7 @@ const app = express();
 
 app.set("port", 5000);
 
+app.use(express.json());
 // Routes
 
 export default app;
